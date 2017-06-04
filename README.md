@@ -99,3 +99,15 @@ webpack: Compiled successfully.
 ```
 
 6) Weboack create a public folder with main.js file inside
+
+## Babel
+```
+// npm一次性安装多个依赖模块，模块之间用空格隔开
+npm install --save-dev babel-core babel-loader babel-preset-es2015 babel-preset-react
+```
+
+
+## React & React-DOM
+```
+npm install --save react react-dom
+```
