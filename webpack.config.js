@@ -2,13 +2,25 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports={
-  entry:  {
-    main: [
-      './main.js',
-      './greeting.js'
-    ]
-  },
+  devtool: 'eval-source-map',
+  entry:  __dirname + "/app/main.js",
   output: {
-      filename:'./public/[name].js'
+      path: __dirname + "/public",
+      filename:'bundle.js'
+    },
+module:{
+  loaders:[
+    {
+      test: /\.json$/,
+      loader: "json"
+    }
+  ]
+},
+
+  devServer: {
+  contentBase: "./public",
+  colors: true,
+  historyApiFallback: true,
+  inline: true
     }
 }

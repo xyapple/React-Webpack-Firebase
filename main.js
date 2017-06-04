@@ -1,6 +1,2 @@
-// greeting.js
-module.exports = function() {
-  var greet = document.createElement('div');
-  greet.textContent = "Hi there and greetings!";
-  return greet;
-};
+var greeter = require('././main');
+document.getElementById('root').appendChild(greeter());
