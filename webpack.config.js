@@ -13,7 +13,16 @@ module:{
     {
       test: /\.json$/,
       loader: "json"
-    }
+    },
+    {
+       test: /\.js$/,
+       exclude: /node_modules/,
+       loader: 'babel',//在webpack的module部分的loaders里进行配置即可
+       query: {
+         presets: ['es2015','react']
+       }
+     }
+
   ]
 },
 
