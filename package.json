@@ -1,14 +1,25 @@
 {
-  "name": "webpack-test",
+  "name": "react-webpack-firebase-chatapp",
   "version": "1.0.0",
-  "description": "Try on webpack",
-  "main": "index.js",
+  "description": "This is a chatapp ",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyapple/React-Webpack-Firebase.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Yin Deascentis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xyapple/React-Webpack-Firebase/issues"
+  },
+  "homepage": "https://github.com/xyapple/React-Webpack-Firebase#readme",
   "devDependencies": {
-    "webpack": "^2.6.1"
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
   }
 }

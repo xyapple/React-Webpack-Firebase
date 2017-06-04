@@ -1,1 +1,1 @@
-# Webpack -- learn the powerful webpack 
+# React-Webpack-Firebase ChatApp
